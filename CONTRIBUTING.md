@@ -1,18 +1,18 @@
-# Contributing to GoShort
+# Contributing to Nimo
 
-Thank you for showing your interest in contributing to GoShort! From commenting on and triaging issues, to reviewing and sending Pull Requests, all contributions are welcome.
+Thank you for showing your interest in contributing to Nimo! From commenting on and triaging issues, to reviewing and sending Pull Requests, all contributions are welcome.
 
-This document covers everything you need to know about contributing to GoShort. Before you get started, please make sure you read all of the sections and are able to sign our CLA.
+This document covers everything you need to know about contributing to Nimo. Before you get started, please make sure you read all of the sections and are able to sign our CLA.
 
 ## Contributor License Agreement (CLA)
 
-Contributions to this project must be accompanied by a Contributor License Agreement. You (or your employer) retain the copyright to your contribution; this simply gives us permission to use and redistribute your contributions as part of the project. Head over to [CLA](https://opensource.powflix.com/cla) to see your current agreements on file or to sign a new one.
+Contributions to this project must be accompanied by a Contributor License Agreement. You (or your employer) retain the copyright to your contribution; this simply gives us permission to use and redistribute your contributions as part of the project. Head over to [CLA](http://powflix.live) to see your current agreements on file or to sign a new one.
 
 You generally only need to submit a CLA once, so if you've already submitted one (even if it was for a different project), you probably don't need to do it again.
 
 ## Code of conduct
 
-Powflix has adopted "Contributor Covenant Code of Conduct V2.0", participants are expected to follow the guildlines described in [CODE_OF_CONDUCT](https://github.com/powflix/goshort/blob/master/CODE_OF_CONDUCT.md)
+Powflix has adopted "Contributor Covenant Code of Conduct V2.0", participants are expected to follow the guildlines described in [CODE_OF_CONDUCT](https://github.com/powflix/nimo/blob/master/CODE_OF_CONDUCT.md)
 
 ## Code reviews
 
@@ -34,14 +34,14 @@ Each of these tasks is highly impactful, and maintainers will greatly appreciate
 
 ## Contributing Code
 
-Code-level contributions to GoShort generally come in the form of pull requests. These are done by forking the repo and making changes locally. The process of proposing a change to GoShort can be summarized as follows:
+Code-level contributions to Nimo generally come in the form of pull requests. These are done by forking the repo and making changes locally. The process of proposing a change to Nimo can be summarized as follows:
 
-* Fork the GoShort repository and create your branch from `master`.
-* Make the desired changes to GoShort sources and perform tests.
+* Fork the Nimo repository and create your branch from `master`.
+* Make the desired changes to Nimo sources and perform tests.
 * If you've added code that should be tested, add tests.
 * Ensure the test suite passes, either locally or on CI once you opened a pull request.
 * Push the changes to your fork.
-* Create a pull request to the GoShort repository.
+* Create a pull request to the Nimo repository.
 * Review and address comments on your pull request.
     * A bot may comment with suggestions. Generally we ask you to resolve these first before a maintainer will review your code.
 * If you haven't signed "Contributor License Agreement (CLA)" already, please complete it here: [CLA]()
@@ -52,15 +52,15 @@ If all goes well, your pull request will be merged. If it is not merged, maintai
 
 ## Community Contributions
 
-Contributions to GoShort is not limited to GitHub. You can help others by sharing your experience using GoShort, whether that is through blog posts, presenting talks at conferences, or simply sharing your thoughts on Twitter and tagging @Powflix
+Contributions to Nimo is not limited to GitHub. You can help others by sharing your experience using Nimo, whether that is through blog posts, presenting talks at conferences, or simply sharing your thoughts on Twitter and tagging @Powflix
 
 ## Coding guidelines
 
-Please see [CODING_CONVENTIONS_STANDARDS](https://github.com/powflix/goshort/blob/master/docs/CODING_CONVENTIONS_STANDARDS.md) in `/docs` repository for good practices of Coding Styles.
+Please see [CODING_CONVENTIONS_STANDARDS](https://github.com/powflix/nimo/blob/master/docs/CODING_CONVENTIONS_STANDARDS.md) in `/docs` repository for good practices of Coding Styles.
 
 ## Good Pull Request
 
-Please see [PR_GUIDELINES](https://github.com/powflix/goshort/blob/master/docs/PR_GUIDELINES.md) in `/docs` repository for good practices of Pull Requests.
+Please see [PR_GUIDELINES](https://github.com/powflix/nimo/blob/master/docs/PR_GUIDELINES.md) in `/docs` repository for good practices of Pull Requests.
 
 ## Reporting Security Issues
 
