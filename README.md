@@ -5,7 +5,7 @@ Python patches bundle for extra functionalities in Command Line Terminals.
 
 ## Code of Conduct
 
-Powflix has adopted "Contributor Covenant Code of Conduct V2.0", participants are expected to follow the guildlines described in [CODE_OF_CONDUCT](https://github.com/powflix/goshort/blob/master/CODE_OF_CONDUCT.md)
+Powflix has adopted "Contributor Covenant Code of Conduct V2.0", participants are expected to follow the guildlines described in [CODE_OF_CONDUCT](https://github.com/powflix/nimo/blob/master/CODE_OF_CONDUCT.md)
 
 ## Contributing
 
