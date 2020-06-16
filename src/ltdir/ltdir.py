@@ -23,7 +23,7 @@ def ltdir():
     """List all hidden files and directories in a sequence."""
     total_files_size = 0
 
-    for root_directry, sub_directories, files in os.walk(os.getcwd()):
+    for root_directory, sub_directories, files in os.walk(os.getcwd()):
 
         print('\nDIRECTORY OF "'+os.getcwd()+'"\n')
         print('==============================================================='
@@ -32,36 +32,44 @@ def ltdir():
               + '===================\n')
 
         for i in range(0, len(sub_directories)):
-            last_modification_date = datetime.datetime.fromtimestamp(
-                os.stat(str(sub_directories[i])).st_mtime)
+            try:
+                last_modification_date = datetime.datetime.fromtimestamp(
+                    os.stat(str(sub_directories[i])).st_mtime)
 
-            last_modification_date = last_modification_date.strftime(
-                '[%d-%b-%Y %I:%M:%S %p]')
+                last_modification_date = last_modification_date.strftime(
+                    '[%d-%b-%Y %I:%M:%S %p]')
 
-            print('<dir>       '
-                  + last_modification_date
-                  + '        '
-                  + str(sub_directories[i]))
+                print('<dir>       '
+                      + last_modification_date
+                      + '        '
+                      + str(sub_directories[i]))
+
+            except FileNotFoundError:
+                continue
 
         for i in range(0, len(files)):
-            last_modification_date = datetime.datetime.fromtimestamp(
-                os.stat(str(files[i])).st_mtime)
+            try:
+                last_modification_date = datetime.datetime.fromtimestamp(
+                    os.stat(str(files[i])).st_mtime)
 
-            last_modification_date = last_modification_date.strftime(
-                '[%d-%b-%Y %I:%M:%S %p]')
+                last_modification_date = last_modification_date.strftime(
+                    '[%d-%b-%Y %I:%M:%S %p]')
 
-            file_size = float("{0:.2f}".format(
-                os.stat(str(files[i])).st_size/1024))
+                file_size = float("{0:.2f}".format(
+                    os.stat(str(files[i])).st_size/1024))
 
-            total_files_size += file_size
+                total_files_size += file_size
 
-            print('File:       '
-                  + last_modification_date
-                  + '        '
-                  + str(files[i])
-                  + '       //[Size = '
-                  + str(file_size)
-                  + ' Kb'+']')
+                print('File:       '
+                      + last_modification_date
+                      + '        '
+                      + str(files[i])
+                      + '       //[Size = '
+                      + str(file_size)
+                      + ' Kb'+']')
+
+            except FileNotFoundError:
+                continue
 
         break
 
