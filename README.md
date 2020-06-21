@@ -1,5 +1,5 @@
 # Nimo
-Python patches bundle for extra functionalities in Command Line Terminals.
+Python Scripts Bundle for extra functionalities in Command Line Terminals.
 
 ==> *Work In Progress*
 
